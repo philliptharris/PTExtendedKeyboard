@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116013B818575F8000DBE7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116013B718575F8000DBE7C6 /* Foundation.framework */; };
+		116013BA18575F8000DBE7C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116013B918575F8000DBE7C6 /* CoreGraphics.framework */; };
+		116013BC18575F8000DBE7C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116013BB18575F8000DBE7C6 /* UIKit.framework */; };
+		116013C218575F8000DBE7C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116013C018575F8000DBE7C6 /* InfoPlist.strings */; };
+		116013C418575F8000DBE7C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 116013C318575F8000DBE7C6 /* main.m */; };
+		116013C818575F8000DBE7C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116013C718575F8000DBE7C6 /* AppDelegate.m */; };
+		116013CB18575F8000DBE7C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116013C918575F8000DBE7C6 /* Main.storyboard */; };
+		116013CE18575F8000DBE7C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116013CD18575F8000DBE7C6 /* ViewController.m */; };
+		116013D018575F8000DBE7C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116013CF18575F8000DBE7C6 /* Images.xcassets */; };
+		116013D718575F8000DBE7C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116013D618575F8000DBE7C6 /* XCTest.framework */; };
+		116013D818575F8000DBE7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116013B718575F8000DBE7C6 /* Foundation.framework */; };
+		116013D918575F8000DBE7C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116013BB18575F8000DBE7C6 /* UIKit.framework */; };
+		116013E118575F8000DBE7C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116013DF18575F8000DBE7C6 /* InfoPlist.strings */; };
+		116013E318575F8000DBE7C6 /* PTExtendedKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116013E218575F8000DBE7C6 /* PTExtendedKeyboardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		116013DA18575F8000DBE7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116013AC18575F8000DBE7C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116013B318575F8000DBE7C6;
+			remoteInfo = PTExtendedKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116013B418575F8000DBE7C6 /* PTExtendedKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTExtendedKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116013B718575F8000DBE7C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		116013B918575F8000DBE7C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		116013BB18575F8000DBE7C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		116013BF18575F8000DBE7C6 /* PTExtendedKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTExtendedKeyboard-Info.plist"; sourceTree = "<group>"; };
+		116013C118575F8000DBE7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		116013C318575F8000DBE7C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		116013C518575F8000DBE7C6 /* PTExtendedKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PTExtendedKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		116013C618575F8000DBE7C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		116013C718575F8000DBE7C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		116013CA18575F8000DBE7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		116013CC18575F8000DBE7C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		116013CD18575F8000DBE7C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		116013CF18575F8000DBE7C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		116013D518575F8000DBE7C6 /* PTExtendedKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTExtendedKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		116013D618575F8000DBE7C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		116013DE18575F8000DBE7C6 /* PTExtendedKeyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTExtendedKeyboardTests-Info.plist"; sourceTree = "<group>"; };
+		116013E018575F8000DBE7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		116013E218575F8000DBE7C6 /* PTExtendedKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTExtendedKeyboardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116013B118575F8000DBE7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116013BA18575F8000DBE7C6 /* CoreGraphics.framework in Frameworks */,
+				116013BC18575F8000DBE7C6 /* UIKit.framework in Frameworks */,
+				116013B818575F8000DBE7C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116013D218575F8000DBE7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116013D718575F8000DBE7C6 /* XCTest.framework in Frameworks */,
+				116013D918575F8000DBE7C6 /* UIKit.framework in Frameworks */,
+				116013D818575F8000DBE7C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116013AB18575F8000DBE7C6 = {
+			isa = PBXGroup;
+			children = (
+				116013BD18575F8000DBE7C6 /* PTExtendedKeyboard */,
+				116013DC18575F8000DBE7C6 /* PTExtendedKeyboardTests */,
+				116013B618575F8000DBE7C6 /* Frameworks */,
+				116013B518575F8000DBE7C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116013B518575F8000DBE7C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116013B418575F8000DBE7C6 /* PTExtendedKeyboard.app */,
+				116013D518575F8000DBE7C6 /* PTExtendedKeyboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116013B618575F8000DBE7C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				116013B718575F8000DBE7C6 /* Foundation.framework */,
+				116013B918575F8000DBE7C6 /* CoreGraphics.framework */,
+				116013BB18575F8000DBE7C6 /* UIKit.framework */,
+				116013D618575F8000DBE7C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		116013BD18575F8000DBE7C6 /* PTExtendedKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				116013C618575F8000DBE7C6 /* AppDelegate.h */,
+				116013C718575F8000DBE7C6 /* AppDelegate.m */,
+				116013C918575F8000DBE7C6 /* Main.storyboard */,
+				116013CC18575F8000DBE7C6 /* ViewController.h */,
+				116013CD18575F8000DBE7C6 /* ViewController.m */,
+				116013CF18575F8000DBE7C6 /* Images.xcassets */,
+				116013BE18575F8000DBE7C6 /* Supporting Files */,
+			);
+			path = PTExtendedKeyboard;
+			sourceTree = "<group>";
+		};
+		116013BE18575F8000DBE7C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				116013BF18575F8000DBE7C6 /* PTExtendedKeyboard-Info.plist */,
+				116013C018575F8000DBE7C6 /* InfoPlist.strings */,
+				116013C318575F8000DBE7C6 /* main.m */,
+				116013C518575F8000DBE7C6 /* PTExtendedKeyboard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		116013DC18575F8000DBE7C6 /* PTExtendedKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				116013E218575F8000DBE7C6 /* PTExtendedKeyboardTests.m */,
+				116013DD18575F8000DBE7C6 /* Supporting Files */,
+			);
+			path = PTExtendedKeyboardTests;
+			sourceTree = "<group>";
+		};
+		116013DD18575F8000DBE7C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				116013DE18575F8000DBE7C6 /* PTExtendedKeyboardTests-Info.plist */,
+				116013DF18575F8000DBE7C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116013B318575F8000DBE7C6 /* PTExtendedKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116013E618575F8000DBE7C6 /* Build configuration list for PBXNativeTarget "PTExtendedKeyboard" */;
+			buildPhases = (
+				116013B018575F8000DBE7C6 /* Sources */,
+				116013B118575F8000DBE7C6 /* Frameworks */,
+				116013B218575F8000DBE7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PTExtendedKeyboard;
+			productName = PTExtendedKeyboard;
+			productReference = 116013B418575F8000DBE7C6 /* PTExtendedKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		116013D418575F8000DBE7C6 /* PTExtendedKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116013E918575F8000DBE7C6 /* Build configuration list for PBXNativeTarget "PTExtendedKeyboardTests" */;
+			buildPhases = (
+				116013D118575F8000DBE7C6 /* Sources */,
+				116013D218575F8000DBE7C6 /* Frameworks */,
+				116013D318575F8000DBE7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116013DB18575F8000DBE7C6 /* PBXTargetDependency */,
+			);
+			name = PTExtendedKeyboardTests;
+			productName = PTExtendedKeyboardTests;
+			productReference = 116013D518575F8000DBE7C6 /* PTExtendedKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116013AC18575F8000DBE7C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Phillip Harris";
+				TargetAttributes = {
+					116013D418575F8000DBE7C6 = {
+						TestTargetID = 116013B318575F8000DBE7C6;
+					};
+				};
+			};
+			buildConfigurationList = 116013AF18575F8000DBE7C6 /* Build configuration list for PBXProject "PTExtendedKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116013AB18575F8000DBE7C6;
+			productRefGroup = 116013B518575F8000DBE7C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116013B318575F8000DBE7C6 /* PTExtendedKeyboard */,
+				116013D418575F8000DBE7C6 /* PTExtendedKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116013B218575F8000DBE7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116013D018575F8000DBE7C6 /* Images.xcassets in Resources */,
+				116013C218575F8000DBE7C6 /* InfoPlist.strings in Resources */,
+				116013CB18575F8000DBE7C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116013D318575F8000DBE7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116013E118575F8000DBE7C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116013B018575F8000DBE7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116013CE18575F8000DBE7C6 /* ViewController.m in Sources */,
+				116013C818575F8000DBE7C6 /* AppDelegate.m in Sources */,
+				116013C418575F8000DBE7C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116013D118575F8000DBE7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116013E318575F8000DBE7C6 /* PTExtendedKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		116013DB18575F8000DBE7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116013B318575F8000DBE7C6 /* PTExtendedKeyboard */;
+			targetProxy = 116013DA18575F8000DBE7C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		116013C018575F8000DBE7C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116013C118575F8000DBE7C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		116013C918575F8000DBE7C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116013CA18575F8000DBE7C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		116013DF18575F8000DBE7C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				116013E018575F8000DBE7C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		116013E418575F8000DBE7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		116013E518575F8000DBE7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116013E718575F8000DBE7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PTExtendedKeyboard/PTExtendedKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "PTExtendedKeyboard/PTExtendedKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		116013E818575F8000DBE7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PTExtendedKeyboard/PTExtendedKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "PTExtendedKeyboard/PTExtendedKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		116013EA18575F8000DBE7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTExtendedKeyboard.app/PTExtendedKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PTExtendedKeyboard/PTExtendedKeyboard-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PTExtendedKeyboardTests/PTExtendedKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		116013EB18575F8000DBE7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PTExtendedKeyboard.app/PTExtendedKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PTExtendedKeyboard/PTExtendedKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "PTExtendedKeyboardTests/PTExtendedKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116013AF18575F8000DBE7C6 /* Build configuration list for PBXProject "PTExtendedKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116013E418575F8000DBE7C6 /* Debug */,
+				116013E518575F8000DBE7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116013E618575F8000DBE7C6 /* Build configuration list for PBXNativeTarget "PTExtendedKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116013E718575F8000DBE7C6 /* Debug */,
+				116013E818575F8000DBE7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		116013E918575F8000DBE7C6 /* Build configuration list for PBXNativeTarget "PTExtendedKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116013EA18575F8000DBE7C6 /* Debug */,
+				116013EB18575F8000DBE7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 116013AC18575F8000DBE7C6 /* Project object */;
+}
