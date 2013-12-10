@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PTExtendedKeyboardInputView.h
 //  PTExtendedKeyboard
 //
 //  Created by Phillip Harris on 12/10/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (strong, nonatomic) IBOutlet UITextField *textField;
+@interface PTExtendedKeyboardInputView : UIInputView
 
 @end

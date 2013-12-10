@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "PTExtendedKeyboardInputView.h"
+
 @interface ViewController ()
 
 @end
@@ -17,13 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    PTExtendedKeyboardInputView *inputAccessoryView = [[PTExtendedKeyboardInputView alloc] initWithFrame:CGRectMake(0.0f, 0.0f, CGRectGetWidth(self.view.frame), 50.0) inputViewStyle:UIInputViewStyleKeyboard];
+    
+    self.textField.inputAccessoryView = inputAccessoryView;
 }
 
 @end

@@ -21,6 +21,7 @@
 		116013D918575F8000DBE7C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116013BB18575F8000DBE7C6 /* UIKit.framework */; };
 		116013E118575F8000DBE7C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116013DF18575F8000DBE7C6 /* InfoPlist.strings */; };
 		116013E318575F8000DBE7C6 /* PTExtendedKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116013E218575F8000DBE7C6 /* PTExtendedKeyboardTests.m */; };
+		116013F11857622D00DBE7C6 /* PTExtendedKeyboardInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 116013F01857622D00DBE7C6 /* PTExtendedKeyboardInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		116013DE18575F8000DBE7C6 /* PTExtendedKeyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PTExtendedKeyboardTests-Info.plist"; sourceTree = "<group>"; };
 		116013E018575F8000DBE7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		116013E218575F8000DBE7C6 /* PTExtendedKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTExtendedKeyboardTests.m; sourceTree = "<group>"; };
+		116013EF1857622D00DBE7C6 /* PTExtendedKeyboardInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTExtendedKeyboardInputView.h; sourceTree = "<group>"; };
+		116013F01857622D00DBE7C6 /* PTExtendedKeyboardInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTExtendedKeyboardInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				116013C918575F8000DBE7C6 /* Main.storyboard */,
 				116013CC18575F8000DBE7C6 /* ViewController.h */,
 				116013CD18575F8000DBE7C6 /* ViewController.m */,
+				116013EF1857622D00DBE7C6 /* PTExtendedKeyboardInputView.h */,
+				116013F01857622D00DBE7C6 /* PTExtendedKeyboardInputView.m */,
 				116013CF18575F8000DBE7C6 /* Images.xcassets */,
 				116013BE18575F8000DBE7C6 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				116013CE18575F8000DBE7C6 /* ViewController.m in Sources */,
 				116013C818575F8000DBE7C6 /* AppDelegate.m in Sources */,
 				116013C418575F8000DBE7C6 /* main.m in Sources */,
+				116013F11857622D00DBE7C6 /* PTExtendedKeyboardInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
