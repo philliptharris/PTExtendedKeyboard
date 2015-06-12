@@ -26,4 +26,35 @@
     return self;
 }
 
+//===============================================
+#pragma mark -
+#pragma mark UIResponder
+//===============================================
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [super touchesBegan:touches withEvent:event];
+    NSLog(@"touchesBegan");
+    
+    UITouch *aTouch = [touches anyObject];
+    CGPoint touchPoint = [aTouch locationInView:self];
+}
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+	[super touchesMoved:touches withEvent:event];
+    NSLog(@"touchesMoved");
+    
+    UITouch *aTouch = [touches anyObject];
+    CGPoint touchPoint = [aTouch locationInView:self];
+}
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+    [super touchesCancelled:touches withEvent:event];
+    NSLog(@"touchesCancelled");
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    [super touchesEnded:touches withEvent:event];
+    NSLog(@"touchesEnded");
+}
+
 @end

@@ -22,6 +22,9 @@
 		116013E118575F8000DBE7C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 116013DF18575F8000DBE7C6 /* InfoPlist.strings */; };
 		116013E318575F8000DBE7C6 /* PTExtendedKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 116013E218575F8000DBE7C6 /* PTExtendedKeyboardTests.m */; };
 		116013F11857622D00DBE7C6 /* PTExtendedKeyboardInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 116013F01857622D00DBE7C6 /* PTExtendedKeyboardInputView.m */; };
+		116013F4185768D800DBE7C6 /* chicklet.png in Resources */ = {isa = PBXBuildFile; fileRef = 116013F2185768D800DBE7C6 /* chicklet.png */; };
+		116013F5185768D800DBE7C6 /* chicklet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 116013F3185768D800DBE7C6 /* chicklet@2x.png */; };
+		116013F8185768F800DBE7C6 /* PTKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 116013F7185768F800DBE7C6 /* PTKey.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,10 @@
 		116013E218575F8000DBE7C6 /* PTExtendedKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PTExtendedKeyboardTests.m; sourceTree = "<group>"; };
 		116013EF1857622D00DBE7C6 /* PTExtendedKeyboardInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTExtendedKeyboardInputView.h; sourceTree = "<group>"; };
 		116013F01857622D00DBE7C6 /* PTExtendedKeyboardInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTExtendedKeyboardInputView.m; sourceTree = "<group>"; };
+		116013F2185768D800DBE7C6 /* chicklet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicklet.png; sourceTree = "<group>"; };
+		116013F3185768D800DBE7C6 /* chicklet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chicklet@2x.png"; sourceTree = "<group>"; };
+		116013F6185768F800DBE7C6 /* PTKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTKey.h; sourceTree = "<group>"; };
+		116013F7185768F800DBE7C6 /* PTKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTKey.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +129,10 @@
 				116013CD18575F8000DBE7C6 /* ViewController.m */,
 				116013EF1857622D00DBE7C6 /* PTExtendedKeyboardInputView.h */,
 				116013F01857622D00DBE7C6 /* PTExtendedKeyboardInputView.m */,
+				116013F6185768F800DBE7C6 /* PTKey.h */,
+				116013F7185768F800DBE7C6 /* PTKey.m */,
+				116013F2185768D800DBE7C6 /* chicklet.png */,
+				116013F3185768D800DBE7C6 /* chicklet@2x.png */,
 				116013CF18575F8000DBE7C6 /* Images.xcassets */,
 				116013BE18575F8000DBE7C6 /* Supporting Files */,
 			);
@@ -234,7 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				116013D018575F8000DBE7C6 /* Images.xcassets in Resources */,
+				116013F5185768D800DBE7C6 /* chicklet@2x.png in Resources */,
 				116013C218575F8000DBE7C6 /* InfoPlist.strings in Resources */,
+				116013F4185768D800DBE7C6 /* chicklet.png in Resources */,
 				116013CB18575F8000DBE7C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +271,7 @@
 				116013C818575F8000DBE7C6 /* AppDelegate.m in Sources */,
 				116013C418575F8000DBE7C6 /* main.m in Sources */,
 				116013F11857622D00DBE7C6 /* PTExtendedKeyboardInputView.m in Sources */,
+				116013F8185768F800DBE7C6 /* PTKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
